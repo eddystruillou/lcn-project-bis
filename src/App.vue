@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <Player />
+    <Date />
+    <Player /> 
   </div>
 </template>
 
 <script>
 import Player from './components/Player.vue'
+import Date from './components/Date.vue'
 
 export default {
   name: 'app',
   components: {
-    Player
+    Player,
+    Date
   }
 }
 </script>
